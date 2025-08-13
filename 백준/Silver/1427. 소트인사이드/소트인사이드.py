@@ -1,9 +1,13 @@
-n = input()
-n_list = []
+num = list(input())
 
-for i in n:
-    n_list.append(int(i))
+for i in range(len(num)):
+  max = i
+  # 최댓값을 찾기
+  for j in range(i+1, len(num)):
+    if num[max] < num[j]:
+      max = j
+  # swap
+  if num[max] > num[i]:
+    num[max], num[i] = num[i], num[max]
 
-n_list.sort(reverse = True)
-
-print(''.join(map(str, n_list)))
+print(''.join(num))
