@@ -21,7 +21,8 @@ def bfs(start_x, start_y):
   q = deque()
   q.append((start_x, start_y))
 
-  house = 0
+  graph[start_x][start_y] = 0 # 시작집 방문 처리
+  house = 1
 
   while q:
     x, y = q.popleft()
@@ -34,7 +35,7 @@ def bfs(start_x, start_y):
         continue
 
       if graph[nx][ny] == 1:
-        graph[nx][ny] = graph[x][y] + 1
+        graph[nx][ny] = 0 # 방문처리
         q.append((nx, ny))
         house += 1
   return house
@@ -48,12 +49,8 @@ house_arr = []
 for i in range(n):
   for j in range(n):
     if graph[i][j] == 1:
-      h = bfs(i, j)
-      if h == 0:
-        house_arr.append(1)
-      else:
-        house_arr.append(h)
-      count += 1
+        house_arr.append(bfs(i, j))
+        count += 1
 
 house_arr.sort()
 
