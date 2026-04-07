@@ -12,6 +12,3 @@ WHERE ITEM_ID IN (
     )
 )
 ORDER BY ITEM_ID DESC
-
-
-
