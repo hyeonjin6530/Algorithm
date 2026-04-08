@@ -5,7 +5,7 @@ nums.sort()
 
 visited = [False] * n
 
-# 조합
+# 순열
 def backtracking(arr):
   if len(arr) == m:
     print(' '.join(map(str, arr)))
