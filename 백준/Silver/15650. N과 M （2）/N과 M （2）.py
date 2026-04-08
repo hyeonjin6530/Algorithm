@@ -1,16 +1,12 @@
-import sys
-input = sys.stdin.readline
-
 n, m = map(int, input().split())
-arr = []
 
-def backtracking():
-    if len(arr) == m:
-        print(' '.join(map(str, arr)))
-    for i in range(1, n+1):
-        if i not in arr and (len(arr) == 0 or i > arr[-1]):
-            arr.append(i)
-            backtracking()
-            arr.pop()
+# 조합
+def backtracking(idx, arr):
+  if len(arr) == m:
+    print(' '.join(map(str, arr)))
+    return
+  
+  for i in range(idx, n + 1):
+    backtracking(i+1, arr + [i])
 
-backtracking()
+backtracking(1, [])
