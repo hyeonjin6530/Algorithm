@@ -27,7 +27,7 @@ def bfs(a, b):
   q.append((a, b))
   visited[a][b] = True
 
-  blank = 0
+  blank = 1
 
   while q:
     x, y = q.popleft()
@@ -36,12 +36,11 @@ def bfs(a, b):
       nx = x + dx[i]
       ny = y + dy[i]
 
-      if nx < 0 or nx > m-1 or ny < 0 or ny > n-1:
+      if nx < 0 or nx >= m or ny < 0 or ny >= n:
         continue
 
-      if paper[nx][ny] == 0 and visited[nx][ny] == False:
+      if paper[nx][ny] == 0 and not visited[nx][ny]:
         blank += 1
-        paper[nx][ny] = paper[x][y] + 1
         visited[nx][ny] = True
         q.append((nx, ny))
   
@@ -52,15 +51,11 @@ size = []
 
 for r in range(m):
   for c in range(n):
-    if paper[r][c] == 0:
-      size.append(bfs(r, c) + 1)
+    if paper[r][c] == 0 and not visited[r][c]:
+      size.append(bfs(r, c))
       count += 1
 
 size.sort()
 
 print(count)
 print(' '.join(map(str, size)))
-
-
-
-
