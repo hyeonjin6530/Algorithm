@@ -12,8 +12,7 @@ def solution(n, edge):
         graph[b].append(a)
     
     # 거리를 저장할 그래프
-    dist = [1e9] * (n+1)
-    dist[0] = 0
+    dist = [-1] * (n+1)
     
     visited = [False] * (n+1)
         
@@ -27,7 +26,7 @@ def solution(n, edge):
         
         for i in graph[now]:
             if visited[i] == False:
-                dist[i] = min(dist[i] , dist[now] + 1)
+                dist[i] = dist[now] + 1
                 visited[i] = True
                 q.append(i)
     
