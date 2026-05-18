@@ -14,6 +14,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hyeonjin6530/Algorithm/tree/master/0001-two-sum) |
+| [0046-permutations](https://github.com/hyeonjin6530/Algorithm/tree/master/0046-permutations) |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hyeonjin6530/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Hash Table
@@ -44,4 +45,8 @@
 | ------- |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hyeonjin6530/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/hyeonjin6530/Algorithm/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
