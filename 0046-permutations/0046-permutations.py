@@ -6,7 +6,7 @@ class Solution:
 
         visited = [False] * n
 
-        def dfs(idx, arr):
+        def dfs(arr):
             if len(arr) == n:
                 answer.append(arr)
                 return
@@ -14,9 +14,9 @@ class Solution:
             for i in range(n):
                 if not visited[i]:
                     visited[i] = True
-                    dfs(idx, arr + [nums[i]])
+                    dfs(arr + [nums[i]])
                     visited[i] = False
         
-        dfs(0, [])
+        dfs([])
 
         return answer
