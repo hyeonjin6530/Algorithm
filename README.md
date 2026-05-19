@@ -26,6 +26,7 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0841-keys-and-rooms](https://github.com/hyeonjin6530/Algorithm/tree/master/0841-keys-and-rooms) |
 ## Breadth-First Search
 |  |
@@ -56,8 +57,10 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
