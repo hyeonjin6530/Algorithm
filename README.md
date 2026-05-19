@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/hyeonjin6530/Algorithm/tree/master/0020-valid-parentheses) |
+| [0079-word-search](https://github.com/hyeonjin6530/Algorithm/tree/master/0079-word-search) |
 ## Stack
 |  |
 | ------- |
@@ -15,6 +16,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/hyeonjin6530/Algorithm/tree/master/0001-two-sum) |
 | [0046-permutations](https://github.com/hyeonjin6530/Algorithm/tree/master/0046-permutations) |
+| [0079-word-search](https://github.com/hyeonjin6530/Algorithm/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hyeonjin6530/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Hash Table
@@ -24,6 +26,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/hyeonjin6530/Algorithm/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hyeonjin6530/Algorithm/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -46,6 +49,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/hyeonjin6530/Algorithm/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/hyeonjin6530/Algorithm/tree/master/0200-number-of-islands) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/hyeonjin6530/Algorithm/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Backtracking
@@ -53,6 +57,7 @@
 | ------- |
 | [0046-permutations](https://github.com/hyeonjin6530/Algorithm/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/hyeonjin6530/Algorithm/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/hyeonjin6530/Algorithm/tree/master/0079-word-search) |
 ## Tree
 |  |
 | ------- |
