@@ -44,9 +44,10 @@ def solution(n, paths, gates, summits):
             if next_node in gates:
                 continue
 
+            # max(지금까지의 최대값, 새 간선의 가중치)
             next = max(cur, weight)
 
-            # 더 적은 intensity로 갈 수 있는 경우 값을 갱신해준다.
+            # 더 적은 intensity로 갈 수 있는 경우 값을 갱신해준다. (기존에 찾은 경로보다 더 좋은 경로인지)
             if next < intensity[next_node]:
                 intensity[next_node] = next
                 heapq.heappush(pq, (next, next_node))
