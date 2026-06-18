@@ -10,6 +10,7 @@ def solution(distance, rocks, n):
     right = distance
     
     while left <= right:
+        # 될 수 있는 최소 거리
         mid = (left+right) // 2
         
         # 지운 돌의 개수
@@ -29,7 +30,7 @@ def solution(distance, rocks, n):
             remove += 1
         
         if remove <= n:
-            answer = mid
+            answer = mid # 일단 이건 만족한다는 거임
             left = mid + 1
         else:
             right = mid - 1
